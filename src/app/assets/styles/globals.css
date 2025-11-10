@@ -108,8 +108,9 @@
 
 /* Utilities (no responsive variants inside @apply — use @screen) */
 @layer utilities {
-  .wrapper {
-    @apply max-w-7xl p-5 md:px-10 w-full;
+   .wrapper {
+    /* center always */
+    @apply mx-auto w-full max-w-7xl p-5 md:px-10;
   }
   @screen lg {
     .wrapper { @apply mx-auto; }
