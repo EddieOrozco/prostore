@@ -5,7 +5,7 @@ import ModeToggle from "./mode-toggle";
 import Link from "next/link";
 import { EllipsisVertical, ShoppingCart, UserIcon } from "lucide-react";
 import {
-  Sheet,               // ✅ from shadcn, not lucide
+  Sheet,               
   SheetContent,
   SheetDescription,
   SheetTitle,
